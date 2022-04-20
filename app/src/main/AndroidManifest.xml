@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.electronicshelper">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ElectronicsHelper">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GuideActivity"
+            android:label="@string/menu_guide"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".ui.guide.guide_pinout.Pinout"
+            android:label="@string/menu_guide_pinout"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".GuideActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GuideActivity"/>
+        </activity>
+        <activity
+            android:name=".ui.guide.guide_pinout.Arduino"
+            android:label="@string/title_activity_arduino"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".ui.guide.guide_pinout.Pinout">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.guide.guide_pinout.Pinout"/>
+        </activity>
+        <activity
+            android:name=".ui.guide.guide_pinout.Raspberry"
+            android:label="@string/title_activity_raspberry"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".ui.guide.guide_pinout.Pinout">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.guide.guide_pinout.Pinout"/>
+        </activity>
+        <activity
+            android:name=".ui.guide.guide_pinout.USB"
+            android:label="@string/title_activity_usb"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".ui.guide.guide_pinout.Pinout">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.guide.guide_pinout.Pinout"/>
+        </activity>
+        <activity
+            android:name=".ui.guide.guide_pinout.Orange"
+            android:label="@string/title_activity_orange"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".ui.guide.guide_pinout.Pinout">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.guide.guide_pinout.Pinout"/>
+        </activity>
+        <activity
+            android:name=".ui.guide.guide_pinout.pinout_view.ImgView"
+            android:label="@string/menu_view"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".ui.guide.guide_pinout.Arduino">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.guide.guide_pinout.Arduino"/>
+        </activity>
+        <activity
+            android:name=".ui.guide.circuit_symbol.GostR"
+            android:label="@string/gost"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".GuideActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GuideActivity"/>
+        </activity>
+        <activity
+            android:name=".ui.guide.circuit_symbol.ElectronicsSymbols"
+            android:label="@string/title_activity_electronics_symbols"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".ui.guide.circuit_symbol.GostR">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.guide.circuit_symbol.GostR"/>
+        </activity>
+        <activity
+            android:name=".ui.guide.WebViewCapacitorMark"
+            android:label="@string/title_activity_capacitor_mark"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".GuideActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GuideActivity"/>
+        </activity>
+        <activity
+            android:name=".ui.guide.WebViewCapacitorEsr"
+            android:label="@string/esr_mark"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".GuideActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GuideActivity"/>
+        </activity>
+        <activity
+            android:name=".ui.guide.smd_components.CmdComponents"
+            android:label="@string/smd_components"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".GuideActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GuideActivity"/>
+        </activity>
+        <activity
+            android:name=".ui.guide.smd_components.WebViewResistor"
+            android:label="@string/smd_components"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".ui.guide.smd_components.CmdComponents">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.guide.smd_components.CmdComponents"/>
+        </activity>
+        <activity
+            android:name=".ui.guide.smd_components.WebViewTransistor"
+            android:label="@string/smd_components"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".ui.guide.smd_components.CmdComponents">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.guide.smd_components.CmdComponents"/>
+        </activity>
+        <activity
+            android:name=".ui.guide.smd_components.WebViewDiod"
+            android:label="@string/smd_components"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".ui.guide.smd_components.CmdComponents">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.guide.smd_components.CmdComponents"/>
+        </activity>
+        <activity
+            android:name=".ui.guide.smd_body.CmdBody"
+            android:label="@string/smd_body"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".GuideActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GuideActivity"/>
+        </activity>
+        <activity
+            android:name=".ui.guide.smd_body.CmdPassive"
+            android:label="@string/title_activity_smd_passive"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".ui.guide.smd_body.CmdBody">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.guide.smd_body.CmdBody"/>
+        </activity>
+        <activity
+            android:name=".ui.guide.smd_body.SmdSOT"
+            android:label="@string/title_activity_smd_sot"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".ui.guide.smd_body.CmdBody">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.guide.smd_body.CmdBody"/>
+        </activity>
+        <activity
+            android:name=".CalcActivity"
+            android:label="@string/menu_calc"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity
+            android:name=".ui.calculation.ohm_law.OhmLaw"
+            android:label="@string/menu_ohm_law"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".CalcActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CalcActivity"/>
+        </activity>
+        <activity
+            android:name=".ui.calculation.ohm_law.OhmLawU"
+            android:label="@string/ohm_law_u"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".ui.calculation.ohm_law.OhmLaw">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.calculation.ohm_law.OhmLaw"/>
+        </activity>
+        <activity
+            android:name=".ui.calculation.ohm_law.OhmLawR"
+            android:label="@string/ohm_law_r"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".ui.calculation.ohm_law.OhmLaw">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.calculation.ohm_law.OhmLaw"/>
+        </activity>
+        <activity
+            android:name=".ui.calculation.ohm_law.OhmLawI"
+            android:label="@string/ohm_law_i"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".ui.calculation.ohm_law.OhmLaw">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.calculation.ohm_law.OhmLaw"/>
+        </activity>
+        <activity
+            android:name=".ui.calculation.ohm_law.OhmLawP"
+            android:label="@string/ohm_law_p"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".ui.calculation.ohm_law.OhmLaw">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.calculation.ohm_law.OhmLaw"/>
+        </activity>
+        <activity
+            android:name=".ui.calculation.div_u.DivUr"
+            android:label="@string/menu_div_u"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".CalcActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CalcActivity"/>
+        </activity>
+        <activity
+            android:name=".ui.calculation.led_r.LedR"
+            android:label="@string/menu_led_r"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".CalcActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CalcActivity"/>
+        </activity>
+        <activity
+            android:name=".ui.calculation.reactivity.Reactive"
+            android:label="@string/reactive"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".CalcActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CalcActivity"/>
+        </activity>
+        <activity
+            android:name=".ui.calculation.reactivity.ReactiveCapacitor"
+            android:label="@string/reactive_capacitor"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".ui.calculation.reactivity.Reactive">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.calculation.reactivity.Reactive"/>
+        </activity>
+        <activity
+            android:name=".ui.calculation.reactivity.ReactiveInductor"
+            android:label="@string/reactive_inductor"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".ui.calculation.reactivity.Reactive">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.calculation.reactivity.Reactive"/>
+        </activity>
+        <activity
+            android:name=".ui.calculation.resistor.ParallelR"
+            android:label="@string/parallel_resistor"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".CalcActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CalcActivity"/>
+        </activity>
+        <activity
+            android:name=".ui.calculation.resistor.SerialR"
+            android:label="@string/serial_resistor"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".CalcActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CalcActivity"/>
+        </activity>
+        <activity
+            android:name=".ui.calculation.capacitor.ParallelC"
+            android:label="@string/parallel_capacitor"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".CalcActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CalcActivity"/>
+        </activity>
+        <activity
+            android:name=".ui.calculation.capacitor.SerialC"
+            android:label="@string/serial_capacitor"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".CalcActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CalcActivity"/>
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/menu_about"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ElectronicsHelper.NoActionBar"
+            android:parentActivityName=".MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+    </application>
+
+</manifest>

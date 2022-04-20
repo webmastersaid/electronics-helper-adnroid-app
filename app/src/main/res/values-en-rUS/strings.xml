@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Electronics Helper</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_guide">Reference</string>
+    <string name="header_subtitle">Reference information and calculations on electronics</string>
+    <string name="menu_menu">Menu</string>
+    <string name="menu_pinout">Pinout</string>
+    <string name="menu_calc">Calculator</string>
+    <string name="menu_ohm_law">Ohm Law</string>
+    <string name="menu_calc_react">Reactivity Calculator</string>
+    <string name="menu_react_c">Reactivity of the capacitor</string>
+    <string name="menu_react_l">Reactivity of the inductor</string>
+    <string name="menu_div_u">Voltage divider</string>
+    <string name="menu_led_r">Resistor for LED</string>
+    <string name="menu_info">Information</string>
+    <string name="menu_about">About the App</string>
+    <string name="menu_guide_pinout">Pinout Reference Guide</string>
+    <string name="menu_view">Viewing</string>
+    <string name="item_search">Search</string>
+    <string name="item_not_found">Not found</string>
+    <string name="item_loading">Loading</string>
+    <string name="item_opening">Opening</string>
+    <string name="item_wait">Wait please</string>
+    <string name="info_about_app">\tThe Electronics Helper application is designed taking into account the needs of electronic engineers and electronics enthusiasts in the development of electronic circuits. \n\tIt contains a reference section of electronic components and the most frequently used calculations and calculations of electronic circuits.</string>
+    <string name="title_activity_mark_cap">Marking of capacitors</string>
+    <string name="double_tap_title">Press 2 times to zoom in or out</string>
+    <string name="title_activity_arduino">Arduino</string>
+    <string name="title_activity_raspberry">Raspberry Pi</string>
+    <string name="title_activity_usb">Raspberry Pi</string>
+    <string name="title_activity_capacitor_mark">Marking of capacitors</string>
+    <string name="title_activity_electronics_symbols">Electronic circuits</string>
+    <string name="title_activity_gost">Electronic circuit Standards</string>
+    <string name="title_activity_esr">ESR Table</string>
+    <string name="title_activity_smd_comp">SMD Component Marking Codes</string>
+    <string name="title_activity_smd_body">List of SMD enclosures</string>
+    <string name="title_activity_smd_passive">Rectangular passive components</string>
+    <string name="title_activity_smd_sot">Small-outline transistor (SOT)</string>
+    <string name="input_number">Enter a number</string>
+    <string name="ohm_law_u">Voltage</string>
+    <string name="ohm_law_r">Resistance</string>
+    <string name="ohm_law_p">Power</string>
+    <string name="ohm_law_i">Current</string>
+    <string name="ohm_law_a">A</string>
+    <string name="ohm_law_v">V</string>
+    <string name="ohm_law_om">Ohm</string>
+    <string name="ohm_law_pw">Wt</string>
+    <string name="ohm_law_f_u">U = I*R</string>
+    <string name="ohm_law_f_i">I = U/R</string>
+    <string name="ohm_law_f_p">P = U/I</string>
+    <string name="ohm_law_f_r">R = U*I</string>
+    <string name="div_u_f_u">Ugen = U1 + U2</string>
+    <string name="div_u_v">Ugen</string>
+    <string name="div_u_u">Uin</string>
+    <string name="div_u_r1">R1</string>
+    <string name="div_u_r2">R2</string>
+    <string name="div_u_c1">C1</string>
+    <string name="div_u_c2">C2</string>
+    <string name="led_r_r1">Resistor resistance:</string>
+    <string name="led_r_p">Resistor power:</string>
+    <string name="btn_compute">Calculate</string>
+    <string name="clear_x">Clear</string>
+    <string name="division_by_zero">Division by Zero</string>
+    <string name="is_empty">Enter all values</string>
+    <string name="zero">0</string>
+    <string name="power_supply">Power supply voltage:</string>
+    <string name="led_voltage">Direct voltage of the LED:</string>
+    <string name="r_u_u_i_p_u_u_i">R = (Us - Ud) / Id  P = (Us - Ud) * Id</string>
+    <string name="capacity">Capacity:</string>
+    <string name="inductive">Inductance:</string>
+    <string name="frequency">Frequency:</string>
+    <string name="xc_2_c">XC = 1 /(2πƒC)</string>
+    <string name="xl_2_l">XL = 2πƒL</string>
+    <string name="parallel_r">Rgen = (R1 * R2) / (R1 + R2)</string>
+    <string name="serial_r">Rgen = R1 + R2</string>
+    <string name="parallel_c">Cgen = C1 + C2</string>
+    <string name="serial_c">Cgen = (C1 * C2) / (C1 + C2)</string>
+    <string name="micro_f">icF</string>
+    <string name="serial_capacitor">Serial capacitors</string>
+    <string name="parallel_capacitor">Parallel capacitors</string>
+    <string name="serial_resistor">Serial resistors</string>
+    <string name="parallel_resistor">Parallel resistors</string>
+    <string name="reactive_inductor">Reactivity of the induction coil</string>
+    <string name="reactive_capacitor">Reactivity of the capacitor</string>
+    <string name="reactive">Reactivity</string>
+    <string name="smd_body">SMD housing</string>
+    <string name="smd_components">SMD components</string>
+    <string name="esr_mark">ESR marking</string>
+    <string name="gost">GOST standards</string>
+    <string name="about_dev">Developer: findsaid</string>
+    <string name="title_activity_orange">Orange Pi</string>
+    <string name="btn_copy">Copy</string>
+    <string name="text_copied">Copied</string>
+    <string name="text_sot">Small-outline transistor</string>
+    <string name="text_smd_passive">Rectangular passive component</string>
+    <string name="text_led_voltage">Rated current of the LED:</string>
+    <string name="text_out_voltage">Output voltage:</string>
+    <string name="text_in_voltage">Input voltage:</string>
+    <string name="div_u_v1">U1</string>
+    <string name="div_u_v2">U2</string>
+    <string name="div_u_f_u1">U1 = (U * R1) / (R1 + R2)</string>
+    <string name="div_u_f_u2">U2 = (U * R2) / (R1 + R2)</string>
+    <string name="descript_div_u">Voltage divider circuit</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+</resources>

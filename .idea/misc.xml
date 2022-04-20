@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_ground_symbol.xml" value="0.20625" />
+        <entry key="app/src/main/res/drawable/ic_raspberry_pi_icon.xml" value="0.20625" />
+        <entry key="app/src/main/res/drawable/ic_raspberry_pi_logo_icon.xml" value="0.20625" />
+        <entry key="app/src/main/res/drawable/ic_u.xml" value="0.20625" />
+        <entry key="app/src/main/res/layout/activity_about.xml" value="0.12681159420289856" />
+        <entry key="app/src/main/res/layout/activity_calc_div_u_r.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_calc_led_r.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_calc_ohm_law.xml" value="0.11231884057971014" />
+        <entry key="app/src/main/res/layout/activity_calc_view.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_guide_calc.xml" value="0.11231884057971014" />
+        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/content_about.xml" value="0.12681159420289856" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/layout_about.xml" value="0.12681159420289856" />
+        <entry key="app/src/main/res/layout/layout_app_bar.xml" value="0.12681159420289856" />
+        <entry key="app/src/main/res/layout/layout_image_view.xml" value="0.12681159420289856" />
+        <entry key="app/src/main/res/layout/layout_item.xml" value="0.12681159420289856" />
+        <entry key="app/src/main/res/layout/layout_sub_item.xml" value="0.19010416666666666" />
+        <entry key="app/src/main/res/layout/layout_web_view.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/main_main.xml" value="0.19010416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

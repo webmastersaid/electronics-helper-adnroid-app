@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Electronics Helper</string>
+    <string name="header_subtitle">Справочная информация и расчеты по электронике</string>
+    <string name="menu_home">Главная</string>
+    <string name="menu_guide">Справочник</string>
+    <string name="menu_menu">Меню</string>
+    <string name="menu_pinout">Распиновка</string>
+    <string name="menu_calc">Калькулятор</string>
+    <string name="menu_ohm_law">Закон Ома</string>
+    <string name="menu_calc_react">Калькулятор реактивности</string>
+    <string name="menu_react_c">Реактивность конденсатора</string>
+    <string name="menu_react_l">Реактивность катушки индуктивности</string>
+    <string name="menu_div_u">Делитель напряжения</string>
+    <string name="menu_led_r">Резистор для светодиода</string>
+    <string name="menu_info">Информация</string>
+    <string name="menu_about">О приложении</string>
+    <string name="menu_guide_pinout">Сравочник распиновок</string>
+    <string name="menu_view">Просмотр</string>
+    <string name="item_search">Поиск</string>
+    <string name="item_not_found">Не найдено</string>
+    <string name="item_loading">Загрузка</string>
+    <string name="item_opening">Открытие</string>
+    <string name="item_wait">Подождите</string>
+    <string name="info_about_app">"\tПриложение Electronics Helper разработан с учетом потребностей инженеров-электронщиков и любителей электроники в разработке электронных схем. \n\tСодержит справочный раздел электронных компонентов и наиболее часто используемые расчеты и вычисления электронных схем."</string>
+    <string name="title_activity_mark_cap">Маркировка конденсаторов</string>
+    <string name="double_tap_title">Нажмите 2 раза для приближения или отдаления</string>
+    <string name="title_activity_arduino">Arduino</string>
+    <string name="title_activity_raspberry">Raspberry Pi</string>
+    <string name="title_activity_usb">USB</string>
+    <string name="title_activity_capacitor_mark">Маркировка конденсаторов</string>
+    <string name="title_activity_electronics_symbols">Электронные схемы</string>
+    <string name="title_activity_gost">Стандарты электронных схем</string>
+    <string name="title_activity_esr">Таблица ESR</string>
+    <string name="title_activity_smd_comp">Коды маркировок SMD компонентов</string>
+    <string name="title_activity_smd_body">Список SMD корпусов</string>
+    <string name="title_activity_smd_sot">Small-outline transistor (SOT)</string>
+    <string name="input_number">Введите число</string>
+    <string name="ohm_law_u">Напряжение</string>
+    <string name="ohm_law_r">Сопротивление</string>
+    <string name="ohm_law_p">Мощность</string>
+    <string name="ohm_law_i">Ток</string>
+    <string name="ohm_law_a">A</string>
+    <string name="ohm_law_v">В</string>
+    <string name="ohm_law_om">Ом</string>
+    <string name="ohm_law_pw">Вт</string>
+    <string name="ohm_law_f_u">U = I*R</string>
+    <string name="ohm_law_f_i">I = U/R</string>
+    <string name="ohm_law_f_p">P = U/I</string>
+    <string name="ohm_law_f_r">R = U*I</string>
+    <string name="div_u_f_u">Uобщ = U1 + U2</string>
+    <string name="div_u_v">Uобщ</string>
+    <string name="div_u_u">Uвход</string>
+    <string name="div_u_r1">R1</string>
+    <string name="div_u_r2">R2</string>
+    <string name="div_u_c1">C1</string>
+    <string name="div_u_c2">C2</string>
+    <string name="led_r_r1">Сопротивление резистора:</string>
+    <string name="led_r_p">Мощность резистора:</string>
+    <string name="btn_compute">Вычислить</string>
+    <string name="clear_x">Очистить</string>
+    <string name="division_by_zero">Деление на Ноль</string>
+    <string name="is_empty">Введите все значения</string>
+    <string name="zero">0</string>
+    <string name="power_supply">Напряжение источника питания:</string>
+    <string name="led_voltage">Прямое напряжение светодиода:</string>
+    <string name="r_u_u_i_p_u_u_i">R = (Uп - Uд) / Iд  P = (Uп - Uд) * Iд</string>
+    <string name="capacity">Емкость:</string>
+    <string name="inductive">Индуктивность:</string>
+    <string name="frequency">Частота:</string>
+    <string name="xc_2_c">XC = 1 /(2πƒC)</string>
+    <string name="xl_2_l">XL = 2πƒL</string>
+    <string name="parallel_r">Rобщ = (R1 * R2) / (R1 + R2)</string>
+    <string name="serial_r">Rобщ = R1 + R2</string>
+    <string name="parallel_c">Cобщ = C1 + C2</string>
+    <string name="serial_c">Cобщ = (C1 * C2) / (C1 + C2)</string>
+    <string name="micro_f">мкФ</string>
+    <string name="serial_capacitor">Последовательные конденсаторы</string>
+    <string name="parallel_capacitor">Параллельные конденсаторы</string>
+    <string name="serial_resistor">Последовательные резисторы</string>
+    <string name="parallel_resistor">Параллельные резисторы</string>
+    <string name="reactive_inductor">Реактивность индукционной катушки</string>
+    <string name="reactive_capacitor">Реактивность конденсатора</string>
+    <string name="reactive">Реактивность</string>
+    <string name="smd_body">SMD корпуса</string>
+    <string name="smd_components">SMD компоненты</string>
+    <string name="esr_mark">ESR маркировка</string>
+    <string name="gost">ГОСТы</string>
+    <string name="about_dev">Разработчик: findsaid</string>
+    <string name="title_activity_smd_passive">Прямоугольные пассивные компоненты</string>
+    <string name="title_activity_orange">Orange Pi</string>
+    <string name="btn_copy">Скопировать</string>
+    <string name="text_copied">Скопировано</string>
+    <string name="text_smd_passive">Прямоугольный пассивный компонент</string>
+    <string name="text_sot">Small-outline transistor</string>
+    <string name="text_led_voltage">Номинальный ток светодиода:</string>
+    <string name="text_out_voltage">Выходное напряжение:</string>
+    <string name="text_in_voltage">Входное напряжение:</string>
+    <string name="div_u_v1">U1</string>
+    <string name="div_u_v2">U2</string>
+    <string name="div_u_f_u1">U1 = (U * R1) / (R1 + R2)</string>
+    <string name="div_u_f_u2">U2 = (U * R2) / (R1 + R2)</string>
+    <string name="descript_div_u">Схема делителя напряжения</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+
+</resources>
