@@ -3,6 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/electronics-helper-android-app/app/src/main/res/drawable/ic_calculator_icon.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/electronics-helper-android-app/app/src/main/res/drawable/ic_icon_resistor.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/electronics-helper-android-app/app/src/main/res/layout/activity_arduino.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/electronics-helper-android-app/app/src/main/res/layout/activity_calc_div_u_r.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/electronics-helper-android-app/app/src/main/res/layout/activity_calc_led_r.xml" value="0.21390374331550802" />
+        <entry key="..\:/AndroidStudioProjects/electronics-helper-android-app/app/src/main/res/layout/activity_calc_ohm_law.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/electronics-helper-android-app/app/src/main/res/layout/activity_calc_view.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/electronics-helper-android-app/app/src/main/res/layout/activity_guide_calc.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/electronics-helper-android-app/app/src/main/res/layout/content_about.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/electronics-helper-android-app/app/src/main/res/layout/layout_about.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/electronics-helper-android-app/app/src/main/res/layout/layout_image_view.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/electronics-helper-android-app/app/src/main/res/layout/layout_item.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/electronics-helper-android-app/app/src/main/res/layout/layout_sub_item.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_ground_symbol.xml" value="0.20625" />
         <entry key="app/src/main/res/drawable/ic_raspberry_pi_icon.xml" value="0.20625" />
         <entry key="app/src/main/res/drawable/ic_raspberry_pi_logo_icon.xml" value="0.20625" />
